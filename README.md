@@ -311,7 +311,3 @@ This project is private and not licensed for public use.
 - [Better Auth](https://better-auth.com/)
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
-
----
-
-Built with ❤️ using modern web technologies

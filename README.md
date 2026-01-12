@@ -1,20 +1,20 @@
-# 🚗 Rent-a-Ride
+# Rent-a-Ride
 
 A modern, full-stack car rental platform built with React, Hono, and Cloudflare Workers. This application provides a seamless experience for users to browse, rent, and manage vehicles with real-time availability and location tracking.
 
-## ✨ Features
+##  Features
 
-- **🔐 Authentication**: Secure user authentication powered by Better Auth with email verification
-- **🚙 Vehicle Management**: Browse available vehicles with detailed information, pricing, and availability
-- **📍 Location Tracking**: Interactive maps using Leaflet for vehicle location and GPS tracking
-- **💰 Pricing System**: Dynamic pricing with price-per-day calculations
-- **📊 Dashboard**: Owner dashboard for managing vehicles and tracking earnings
-- **📧 Email Notifications**: Automated email notifications using React Email and Resend
-- **🎨 Modern UI**: Beautiful, responsive interface built with Tailwind CSS and Radix UI components
-- **⚡ Edge Computing**: Deployed on Cloudflare Workers for global low-latency access
-- **💾 Database**: Powered by Cloudflare D1 (SQLite) with Drizzle ORM
+- ** Authentication**: Secure user authentication powered by Better Auth with email verification
+- ** Vehicle Management**: Browse available vehicles with detailed information, pricing, and availability
+- ** Location Tracking**: Interactive maps using Leaflet for vehicle location and GPS tracking
+- ** Pricing System**: Dynamic pricing with price-per-day calculations
+- ** Dashboard**: Owner dashboard for managing vehicles and tracking earnings
+- ** Email Notifications**: Automated email notifications using React Email and Resend
+- ** Modern UI**: Beautiful, responsive interface built with Tailwind CSS and Radix UI components
+- ** Edge Computing**: Deployed on Cloudflare Workers for global low-latency access
+- ** Database**: Powered by Cloudflare D1 (SQLite) with Drizzle ORM
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React 19** - UI framework
@@ -39,7 +39,7 @@ A modern, full-stack car rental platform built with React, Hono, and Cloudflare 
 - **ESLint** - Code linting
 - **Wrangler** - Cloudflare Workers CLI
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following installed:
 - **Node.js** (v18 or higher)
@@ -47,7 +47,7 @@ Before you begin, ensure you have the following installed:
 - **Wrangler CLI** - Cloudflare Workers CLI tool
 - **Cloudflare Account** - For deployment
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the repository
 ```bash
@@ -126,7 +126,7 @@ Update the `wrangler.jsonc` file with your Cloudflare account details:
 }
 ```
 
-## 💻 Development
+## Development
 
 ### Start the development server
 ```bash
@@ -145,7 +145,7 @@ pnpm check
 pnpm lint
 ```
 
-## 🏗️ Building
+## Building
 
 ### Build for production
 ```bash
@@ -162,7 +162,7 @@ This command:
 pnpm preview
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Deploy to Cloudflare Workers
 ```bash
@@ -179,7 +179,7 @@ pnpm check
 - Ensure all environment variables are set in Cloudflare Workers settings
 - Verify database migrations are applied to production
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 rent-a-ride/
@@ -204,7 +204,7 @@ rent-a-ride/
 └── package.json            # Project dependencies
 ```
 
-## 🔧 Configuration Files
+## Configuration Files
 
 - **`vite.config.ts`** - Vite build configuration
 - **`wrangler.jsonc`** - Cloudflare Workers configuration
@@ -212,7 +212,7 @@ rent-a-ride/
 - **`tsconfig.json`** - TypeScript configuration
 - **`components.json`** - Shadcn UI components configuration
 
-## 📝 Available Scripts
+## Available Scripts
 
 | Script | Description |
 |--------|-------------|
@@ -224,7 +224,7 @@ rent-a-ride/
 | `pnpm check` | Type check and dry-run deployment |
 | `pnpm cf-typegen` | Generate Cloudflare Worker types |
 
-## 🗃️ Database Management
+## Database Management
 
 ### View local database
 ```bash
@@ -241,7 +241,7 @@ pnpm wrangler d1 execute db --remote --command="SELECT * FROM table_name"
 pnpm drizzle-kit generate
 ```
 
-## 🔐 Authentication
+## Authentication
 
 The application uses Better Auth with the following features:
 - Email/Password authentication
@@ -251,7 +251,7 @@ The application uses Better Auth with the following features:
 
 **Note**: Email verification is currently disabled in `auth.ts`. Enable it in production by setting `emailVerification: true`.
 
-## 🎨 UI Components
+## UI Components
 
 This project uses:
 - **Shadcn** - UI Components
@@ -260,21 +260,21 @@ This project uses:
 - **Lucide React** - Beautiful icon library
 - **Custom components** - Built with class-variance-authority for variants
 
-## 🌍 Maps & Location
+## Maps & Location
 
 - **Leaflet** - Interactive maps
 - **React Leaflet** - React wrapper for Leaflet
 - GPS tracking for vehicle locations
 - Real-time location updates
 
-## 📧 Email System
+## Email System
 
 Email functionality powered by:
 - **React Email** - Build emails with React components
 - **Resend** - Email delivery service
 - Automated notifications for bookings and verifications
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Database migration errors
 If you encounter migration errors:
@@ -291,7 +291,7 @@ pnpm wrangler d1 migrations apply db --local
 lsof -ti:5173 | xargs kill -9
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -299,16 +299,11 @@ lsof -ti:5173 | xargs kill -9
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is private and not licensed for public use.
 
-## 👨‍💻 Author
-
-**Karthik**
-- GitHub: [@Karthik-Git763](https://github.com/Karthik-Git763)
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Cloudflare Workers](https://workers.cloudflare.com/)
 - [Hono](https://hono.dev/)

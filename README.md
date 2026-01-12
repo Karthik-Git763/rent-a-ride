@@ -4,15 +4,15 @@ A modern, full-stack car rental platform built with React, Hono, and Cloudflare 
 
 ##  Features
 
-- ** Authentication**: Secure user authentication powered by Better Auth with email verification
-- ** Vehicle Management**: Browse available vehicles with detailed information, pricing, and availability
-- ** Location Tracking**: Interactive maps using Leaflet for vehicle location and GPS tracking
-- ** Pricing System**: Dynamic pricing with price-per-day calculations
-- ** Dashboard**: Owner dashboard for managing vehicles and tracking earnings
-- ** Email Notifications**: Automated email notifications using React Email and Resend
-- ** Modern UI**: Beautiful, responsive interface built with Tailwind CSS and Radix UI components
-- ** Edge Computing**: Deployed on Cloudflare Workers for global low-latency access
-- ** Database**: Powered by Cloudflare D1 (SQLite) with Drizzle ORM
+- **Authentication**: Secure user authentication powered by Better Auth with email verification
+- **Vehicle Management**: Browse available vehicles with detailed information, pricing, and availability
+- **Location Tracking**: Interactive maps using Leaflet for vehicle location and GPS tracking
+- **Pricing System**: Dynamic pricing with price-per-day calculations
+- **Dashboard**: Owner dashboard for managing vehicles and tracking earnings
+- **Email Notifications**: Automated email notifications using React Email and Resend
+- **Modern UI**: Beautiful, responsive interface built with Tailwind CSS and Radix UI components
+- **Edge Computing**: Deployed on Cloudflare Workers for global low-latency access
+- **Database**: Powered by Cloudflare D1 (SQLite) with Drizzle ORM
 
 ## Tech Stack
 

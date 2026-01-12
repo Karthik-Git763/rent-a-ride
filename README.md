@@ -145,11 +145,6 @@ pnpm check
 pnpm lint
 ```
 
-### Generate Cloudflare types
-```bash
-pnpm cf-typegen
-```
-
 ## 🏗️ Building
 
 ### Build for production
@@ -259,6 +254,7 @@ The application uses Better Auth with the following features:
 ## 🎨 UI Components
 
 This project uses:
+- **Shadcn** - UI Components
 - **Radix UI** - Accessible, unstyled components
 - **Tailwind CSS** - Utility-first CSS framework
 - **Lucide React** - Beautiful icon library
@@ -293,12 +289,6 @@ pnpm wrangler d1 migrations apply db --local
 ```bash
 # Kill process using port 5173
 lsof -ti:5173 | xargs kill -9
-```
-
-### Type errors
-```bash
-# Regenerate Cloudflare types
-pnpm cf-typegen
 ```
 
 ## 🤝 Contributing
